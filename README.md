@@ -1,8 +1,8 @@
-NCATS RePORTER Map Project 
+NCATS RePORTER Map Project 2014
 by Stephan Forden
 ==========================
 
-The goal of this project is to create an interactive map that visualizes NIH's RePORTER data. Much of the map's functionality and interactivity is still to be implemented by whomever continues to work on this. This readme will detail what has been accomplished so far in July and August 2014, and what features still need to or could be developed.
+The goal of this project was to create an interactive map that visualizes NIH's RePORTER data. Much of the map's functionality and interactivity is still to be implemented by whomever continues to work on this. This readme will detail what has been accomplished so far in July and August 2014, and what features still need to or could be developed. This GitHub repository only contains the Python files I wrote to parse and reformat the RePORTER XML data.
 
 report.py contains two functions:
 Getjson() parses a RePORTER xml file, creates an object containing the reporter project data, and converts that object into a geojson file format that will constitute map data.
